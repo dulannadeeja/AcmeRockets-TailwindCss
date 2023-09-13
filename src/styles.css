@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .section-min-height {
+    min-height: calc(100vh - 4.25rem);
+  }
+  .hambutton-toggle {
+    @apply rotate-[720deg] bg-transparent before:-translate-y-3 before:rotate-45 before:translate-x-0 after:-rotate-45 after:translate-x-0 after:translate-y-3;
+  }
+}
